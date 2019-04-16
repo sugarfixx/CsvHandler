@@ -2,6 +2,49 @@
 
 Easy conversion from CSV file to php array or array of objects
 
+### Installation
+
+
+To require service into existing project, add this to composer.json
+````
+{
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "git@github.com:sugarfixx/csvhandler.git"
+      }
+    ]   
+}
+````
+
+Run
+```angular2html
+composer require sugarfixx/csvhandler
+```
+Or if you are starting a blank project from a clean composer.json
+```angular2html
+
+{
+    "require": {
+            "sugarfixx/handler":"0.1"
+        },
+        "repositories": [
+          {
+            "type": "vcs",
+            "url": "git@github.com:sugarfixx/csvhandler.git"
+          }
+        ]   
+    }
+}
+```
+
+
+Run
+```angular2html
+composer require sugarfixx/kafkaservice
+```
+
+
 #### Usage example
 ```php
 use CsvHandler\CsvHandler
