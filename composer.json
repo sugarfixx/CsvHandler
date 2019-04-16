@@ -1,0 +1,19 @@
+{
+    "name": "sugarfixx/csvhandler",
+    "description": "Read and converts csv to array or array of objects",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ingar Torsrud",
+            "email": "ingar.torsrud@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "CsvHandler": "src/"
+        }
+    }
+}
